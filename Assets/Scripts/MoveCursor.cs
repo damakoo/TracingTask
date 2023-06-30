@@ -15,19 +15,19 @@ public class MoveCursor : MonoBehaviour
     {
         if(Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D))
         {
-            this.transform.position = this.transform.position + new Vector3 (0.14f,0,0);
+            this.transform.position = this.transform.position + new Vector3 (0.145f,0,0);
         }
         if(Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.A))
         {
-            this.transform.position = this.transform.position + new Vector3 (-0.14f,0,0);
+            this.transform.position = this.transform.position + new Vector3 (-0.145f,0,0);
         }
         if(Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.W))
         {
-            this.transform.position = this.transform.position + new Vector3 (0,0.14f,0);
+            this.transform.position = this.transform.position + new Vector3 (0,0.145f,0);
         }
         if(Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S))
         {
-            this.transform.position = this.transform.position + new Vector3 (0,-0.14f,0);
+            this.transform.position = this.transform.position + new Vector3 (0,-0.145f,0);
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
